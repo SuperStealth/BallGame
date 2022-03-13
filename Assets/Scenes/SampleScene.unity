@@ -679,6 +679,15 @@ MonoBehaviour:
   sphere: {fileID: 9134107615173873778, guid: 972630b9eb4583e499ea99f67ac61e8b, type: 3}
   backgroundScroller: {fileID: 363709635}
   obstaclesGenerator: {fileID: 363709639}
+  speedThresholds:
+  - goal: 10
+    multiplier: 1.5
+  - goal: 25
+    multiplier: 2
+  - goal: 50
+    multiplier: 3
+  - goal: 100
+    multiplier: 4
 --- !u!1 &666254794
 GameObject:
   m_ObjectHideFlags: 0
